@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.janvi.CreditManagament">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.janvi.CreditManagament.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".message" />
+        <activity android:name="com.example.janvi.CreditManagament.User1" />
+        <activity android:name="com.example.janvi.CreditManagament.User2" />
+        <activity android:name="com.example.janvi.CreditManagament.User3" />
+        <activity android:name="com.example.janvi.CreditManagament.User4" />
+        <activity android:name="com.example.janvi.CreditManagament.User5" />
+        <activity android:name="com.example.janvi.CreditManagament.User6" />
+        <activity android:name="com.example.janvi.CreditManagament.User7" />
+        <activity android:name="com.example.janvi.CreditManagament.User8" />
+        <activity android:name="com.example.janvi.CreditManagament.User9" />
+        <activity android:name="com.example.janvi.CreditManagament.User10"></activity>
+    </application>
+
+</manifest>
